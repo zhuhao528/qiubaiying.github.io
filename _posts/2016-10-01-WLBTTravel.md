@@ -1,7 +1,18 @@
 ---
-title: 乌兰布统自驾旅行攻略
-date: 2016-10-01
+layout:     post
+title:      乌兰布统自驾旅行攻略
+subtitle:   函数式编程框架 ReactiveCocoa 进阶
+date:       2016-10-01
+author:     Neil
+header-img: img/post-bg-ios9-web.jpg
+catalog: true
+tags:
+    - iOS
+    - ReactiveCocoa
+    - 函数式编程
+    - 开源框架
 ---
+
 ## 乌兰布统景点
  > 红山军马场 将军泡子 蛤蟆坝 公主湖 五彩山 桦木沟国家森林公园  乌兰布统旅游区 乌兰布统影视基地 野鸭湖  喇嘛山 乌兰布统古战场  盘龙峡谷 十二座联营 欧式风景区 北沟风景区（以上时前15名） 将军墓  杨树背 白家窝铺 草原沙湖  透风沟  百草敖包 天太永 南井坡梁 东沟 夹皮沟 小野鸭湖 三拐子沟 砬崖子沟 放羊滩  四方城黄牛养殖基地 大裂谷
 
