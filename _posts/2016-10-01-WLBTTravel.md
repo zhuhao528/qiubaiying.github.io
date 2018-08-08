@@ -1,16 +1,13 @@
 ---
 layout:     post
 title:      乌兰布统自驾旅行攻略
-subtitle:   函数式编程框架 ReactiveCocoa 进阶
+subtitle:   内蒙草原之旅
 date:       2016-10-01
 author:     Neil
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - iOS
-    - ReactiveCocoa
-    - 函数式编程
-    - 开源框架
+    - 旅行
 ---
 
 ## 乌兰布统景点
