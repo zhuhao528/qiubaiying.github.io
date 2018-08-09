@@ -67,7 +67,7 @@ gitalk:
   repo: zhuhao528.github.io    #仓库名称
   owner: zhuhao528    #github用户名
   admin: zhuhao528
-  id: decodeURI(window.location.pathname)
+  id: <%= post.date %>
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
