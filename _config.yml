@@ -2,7 +2,7 @@
 title: Neil Blog
 SEOTitle: 朱浩的博客 | Neil Blog
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
+email: zhuhao528@gmail.com
 description: "Every failure is leading towards success."
 keyword: "Neil, Neil Blog, 朱浩的博客, zhuhao, 朱浩, iOS, Apple, iPhone"
 url: "https://zhuhao528.github.io"          # your host, for absolute URL
@@ -18,11 +18,11 @@ sidebar-avatar: /img/avatar-by.jpg      # use absolute URL, seeing it's used in 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+# weibo_username:     zhuhao
+zhihu_username:     zhuhao-29
+github_username:    zhuhao528
+facebook_username:  
+jianshu_username:   13dc13da1064
 #twitter_username:   qiubaiying
 
 
@@ -62,11 +62,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: 516f426db958c4464544                            #生成的clientID
+  clientSecret: e8d0527c9fbff774443e604fcc0d5487d3ca8627    #生成的clientSecret
+  repo: zhuhao528.github.io    #仓库名称
+  owner: zhuhao528    #github用户名
+  admin: zhuhao528
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -99,11 +99,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "简书·Neil",
+        href: "http://www.jianshu.com/u/13dc13da1064"
     },{
         title: "Apple",
         href: "https://apple.com"
