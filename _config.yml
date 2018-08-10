@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 516f426db958c4464544                            #生成的clientID
-  clientSecret: e8d0527c9fbff774443e604fcc0d5487d3ca8627    #生成的clientSecret
+  clientID: f7095abe0b6d14612aa7                            #生成的clientID
+  clientSecret: f8e2be6fb971fe397890215c6e79f91ae140172d    #生成的clientSecret
   repo: zhuhao528.github.io    #仓库名称
   owner: zhuhao528    #github用户名
   admin: zhuhao528
@@ -74,11 +74,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-123648820-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: zhuhao.co               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
