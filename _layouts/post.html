@@ -60,6 +60,15 @@ layout: default
 
 				{{ content }}
 
+                <!--打赏  -->
+                <div class="reward">
+                    <div class="reward-button">赏 <span class="reward-code">
+                        <span class="alipay-code"> <img class="alipay-img wdp-appear" src="/img/social/Alipyspeed.jpg"><b>支付宝打赏</b> </span>
+                        <span class="wechat-code"> <img class="wechat-img wdp-appear" src="/img/social/Wechatspeed.jpg"><b>微信打赏</b> </span> </span>
+                    </div>
+                    <p class="reward-notice">您的打赏是对我最大的鼓励！</p>
+                 </div>
+
                 <hr style="visibility: hidden;">
 
                 <ul class="pager">
@@ -80,16 +89,6 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
-
-                <!--打赏  -->
-                <div class="reward">
-                    <div class="reward-button">赏 <span class="reward-code">
-                        <span class="alipay-code"> <img class="alipay-img wdp-appear" src="/img/social/Alipyspeed.jpg"><b>支付宝打赏</b> </span>
-                        <span class="wechat-code"> <img class="wechat-img wdp-appear" src="/img/social/Wechatspeed.jpg"><b>微信打赏</b> </span> </span>
-                    </div>
-                    <p class="reward-notice">您的打赏是对我最大的鼓励！</p>
-                 </div>
-
 
                 <!--Gitalk评论start  -->
                 {% if site.gitalk.enable %}
