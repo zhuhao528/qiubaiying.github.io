@@ -48,7 +48,6 @@ object SparkPi {
   }
 ```
 # 执行结果
-![刚进大门](https://ws3.sinaimg.cn/large/006tNbRwly1fujp5p00zgj30jf06n75w.jpg)
 
 ![刚进大门](https://ws1.sinaimg.cn/large/006tNbRwly1fujp0ador4j30yn087acr.jpg)
 
