@@ -48,7 +48,24 @@ make install
 ```
 sudo /usr/local/nginx/sbin/nginx
 ```
+
 ![系统版本](https://ws1.sinaimg.cn/large/006tNbRwly1fukyqhvg1bj31kw06m0tu.jpg)
+
+备注其他操作 比如停止nginx
+
+```
+sudo /usr/local/nginx/sbin/nginx -t #检测配置文件是否正确 
+sudo /usr/local/nginx/sbin/nginx -s stop #停止 
+sudo /usr/local/nginx/sbin/nginx -s reload #重载配置文件 
+```
+
+
+# 参考：  
+[实战开发一个Nginx扩展 (Nginx Module)](https://segmentfault.com/a/1190000009769143)  
+[在Ubuntu上编译安装Nginx (Nginx Module)](https://vsxen.github.io/2017/04/09/nginx-sourse-compile-on-ubuntu/)
+
+ 
+
 
 
 
