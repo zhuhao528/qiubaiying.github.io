@@ -4,7 +4,7 @@ title:      Spark-Scala-IntelliJ开发环境调试
 subtitle:	  Spark IntelliJ 调试
 date:       2018-08-14
 author:     Neil
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/post-bg-nomal.jpg
 catalog: 	 true
 tags:
     - Spark
