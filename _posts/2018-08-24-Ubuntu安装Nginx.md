@@ -4,7 +4,7 @@ title:      Ubuntu安装编译Nginx
 subtitle:	  Ubuntu Nginx
 date:       2018-08-24
 author:     Neil
-header-img: img/post-bg-nomal.jpg
+header-img: img/post-bg-coffee.jpeg
 catalog: 	 true
 tags:
     - Ubuntu
