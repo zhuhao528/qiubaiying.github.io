@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Spark-Scala-IntelliJ开发环境调试
-subtitle:	  Spark IntelliJ 调试
+title:      Spark IntelliJ 调试
+subtitle:	  Spark-Scala-IntelliJ开发环境调试 
 date:       2018-08-14
 author:     Neil
 header-img: img/post-bg-coffee.jpeg

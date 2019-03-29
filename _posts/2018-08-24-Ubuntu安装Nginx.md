@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Ubuntu安装编译Nginx
-subtitle:	  Ubuntu Nginx
+title:      安装编译Nginx
+subtitle:	  Ubuntu安装编译Nginx
 date:       2018-08-24
 author:     Neil
 header-img: img/post-bg-coffee.jpeg
