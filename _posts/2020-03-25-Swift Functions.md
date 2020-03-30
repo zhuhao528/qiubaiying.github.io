@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      swift 函数
+title:      Swift Functions
 subtitle:	 
 date:       2020-03-27
 author:     Neil
 header-img: img/post-bg-coffee.jpeg
 catalog: 	 true
 tags:
-    - swift函数
+    - Swift  Functions
 ---
 总结了一下swift的函数部分
 
