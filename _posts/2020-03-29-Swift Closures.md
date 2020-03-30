@@ -89,7 +89,7 @@ Swift自动为内联闭包提供简写参数名，可以使用$0、$1、$2等名
 `reversedNames = names.sorted(by: { $0 > $1 } ) `
 
 
-###Operator Methods （操作符方法）
+### Operator Methods （操作符方法）
 
 因为字符串定义了一个特殊的操作符`>`方法，类型也是(string,string)->bool，所以这里可以简写成 
 
@@ -98,7 +98,7 @@ Swift自动为内联闭包提供简写参数名，可以使用$0、$1、$2等名
 更多的内容请查看[Operator Methods](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html#ID42)
 
 
-##Trailing Closures(尾部闭包)
+## Trailing Closures(尾部闭包)
 
 如果需要将闭包表达式作为函数的最后一个参数传递给函数，并且闭包表达式很长，那么将它写成结尾闭包是很有用的。`尽管闭包是函数的一个参数，但是尾部闭包是写在函数的括号的后面。`当你使用尾部闭包的时候，你不需要在给闭包添加参数标签`argument label `
 
