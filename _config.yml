@@ -3,7 +3,7 @@ title: Neil Blog
 SEOTitle: 朱浩的博客 | Neil Blog
 header-img: img/post-bg-desk.jpg
 email: zhuhao528@gmail.com
-description: "Every failure is leading towards success."
+description: "不完美慢慢成了完美"
 keyword: "Neil, Neil Blog, 朱浩的博客, zhuhao, 朱浩, iOS, Apple, iPhone"
 url: "https://zhuhao528.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,7 +11,7 @@ github_repo: "https://github.com/zhuhao528/zhuhao528.github.io.git" # you code r
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Simple is beautiful!"
+sidebar-about-description: "创新才会与众不同"
 sidebar-avatar: /img/avatar-by.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
