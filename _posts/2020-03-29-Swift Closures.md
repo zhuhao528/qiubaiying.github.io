@@ -10,7 +10,7 @@ tags:
     - Swift Closures
 ---
 
-### Closeures
+## Closeures
 
 >Closures are self-contained blocks of functionality that can be passed around and used in your code. Closures in Swift are similar to blocks in C and Objective-C and to lambdas in other programming languages.
 
@@ -68,7 +68,9 @@ reversedNames = names.sorted(by: { (s1: String, s2: String) -> Bool in
 
 因为所有类型都可以推断，所以返回箭头(->)和参数名称周围的括号也可以省略:
 
-`reversedNames = names.sorted(by: { s1, s2 in return s1 > s2 } )`
+```
+reversedNames = names.sorted(by: { s1, s2 in return s1 > s2 } )
+```
 
 **尽管如此，如果您愿意，您仍然可以使类型显式化，如果这样做可以避免代码读者产生歧义，则鼓励您这样做。**
 
@@ -76,24 +78,30 @@ reversedNames = names.sorted(by: { (s1: String, s2: String) -> Bool in
 
 单表达式闭包明确表示返回单行表达式的结果的时候可以省略`return`关键字 
 
-`reversedNames = names.sorted(by: { s1, s2 in s1 > s2 } )`
+```
+reversedNames = names.sorted(by: { s1, s2 in s1 > s2 } )
+```
 
 因为闭包的内容只有一条表达式返回一个`Bool`类型，是没有歧义的，所以`return`关键字是可以删除的
 
 ### Shorthand Argument Names（省略参数名称）
 
-Swift自动为内联闭包提供简写参数名，可以使用$0、$1、$2等名称引用闭包参数的值。
+Swift自动为内联闭包提供简写参数名，可以使用 `$0、$1、$2` 等名称引用闭包参数的值。
 
 当你在这写闭包表达式中使用简短的参数的时候，你可以省略闭包的参数的数量和类型，因为这些可以从的特定的函数类型中可以推断出来，`in`关键字也可以省略，因为闭包是由函数主题构成
 
-`reversedNames = names.sorted(by: { $0 > $1 } ) `
+```
+reversedNames = names.sorted(by: { $0 > $1 } )
+```
 
 
 ### Operator Methods （操作符方法）
 
 因为字符串定义了一个特殊的操作符`>`方法，类型也是(string,string)->bool，所以这里可以简写成 
 
-`reversedNames = names.sorted(by: >) `
+```
+reversedNames = names.sorted(by: >) 
+```
 
 更多的内容请查看[Operator Methods](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html#ID42)
 
@@ -123,11 +131,13 @@ someFunctionThatTakesAClosure() {
 
 最后一个就是尾部闭包的写法了 所以字符串排序就可以写成如下的写法了
 
-`reversedNames = names.sorted() { $0 > $1 } `
+```reversedNames = names.sorted() { $0 > $1 } ```
 
 如果一个闭包表达式是作为函数或方法的`唯一`参数提供的，并且您将该表达式作为一个`尾闭包`提供，那么在调用函数或方法时，您不需要在函数或方法的名称后面编写一对圆括号():
 
-`reversedNames = names.sorted { $0 > $1 } `
+```
+reversedNames = names.sorted { $0 > $1 } 
+```
 
 尾部闭包最有用的时候是尾部的比较长，无法使用一个单句时,这个时候就显得非常有用了
 
