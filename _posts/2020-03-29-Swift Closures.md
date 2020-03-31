@@ -131,7 +131,9 @@ someFunctionThatTakesAClosure() {
 
 最后一个就是尾部闭包的写法了 所以字符串排序就可以写成如下的写法了
 
-```reversedNames = names.sorted() { $0 > $1 } ```
+```
+reversedNames = names.sorted() { $0 > $1 } 
+```
 
 如果一个闭包表达式是作为函数或方法的`唯一`参数提供的，并且您将该表达式作为一个`尾闭包`提供，那么在调用函数或方法时，您不需要在函数或方法的名称后面编写一对圆括号():
 
