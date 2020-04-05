@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Swift Functions
+title:      Swift 函数
 subtitle:	 
 date:       2020-03-27
 author:     Neil
