@@ -143,16 +143,9 @@ myView2.hidden = NO;
 其他 自定义动画的时间、动画暂停与恢复、改变动画的参数、改变动画的角度等 这里不做展开了 
 可以查看[Advanced Animation Tricks](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreAnimation_guide/AdvancedAnimationTricks/AdvancedAnimationTricks.html#//apple_ref/doc/uid/TP40004514-CH8-SW1)
 
-
 ### 更改动画的默认行为
 
 顾名思义 你可以自定义CAAction协议、更改响应对象`action object`、取消系统的临时动画等可以查看[Changing a Layer’s Default Behavior](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreAnimation_guide/ReactingtoLayerChanges/ReactingtoLayerChanges.html#//apple_ref/doc/uid/TP40004514-CH7-SW1)
-
-## 应用
-
-我们使用`CAKeyframeAnimation `来播放本地gif动画 待整理
-
->Note 动画只是给我们状态或者属性等增加一些过渡效果，本质是不影响数据本身的
 
 参考  
 [CoreAnimation](https://developer.apple.com/documentation/quartzcore)  
