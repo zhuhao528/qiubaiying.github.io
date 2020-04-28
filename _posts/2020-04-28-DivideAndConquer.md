@@ -119,16 +119,20 @@ func majorityElement(_ nums: [Int]) -> Int {
 
 时间复杂度：$O\left( n\log n \right)$。函数 `majorityElement()` 会求解 2 个长度为 n/2​	的子问题，并做两遍长度为的线性扫描。因此，分治算法的时间复杂度可以表示为：
 
-$$T\left( n \right)=2T\left( \; \frac{
-n}{2} \right)+2n$$
+$$
+T\left( n \right)=2T\left( \; \frac{
+n}{2} \right)+2n
+$$
 
 根据 主定理，本题满足第二种情况，所以时间复杂度可以表示为：
 
-$$\; 
+$$
+\; 
 T\left( n \right)
-=\Theta \left( n^{\log _{b^{a}}}\log n \right)=\Theta \left(n^{\log _{2^{2}}}\log n \right)=\Theta \left( n\log n \right)$$
+=\Theta \left( n^{\log _{b^{a}}}\log n \right)=\Theta \left(n^{\log _{2^{2}}}\log n \right)=\Theta \left( n\log n \right)
+$$
 
-空间复杂度：$O\left( \log n \right)$。尽管分治算法没有直接分配额外的数组空间，但在递归的过程中使用了额外的栈空间。算法每次将数组从中间分成两部分，所以数组长度变为 1 之前需要进行 $O\left( \log n \right)$ 次递归，即空间复杂度为 $O\left( \log n \right)$
+空间复杂度：$ O\left( \log n \right) $。尽管分治算法没有直接分配额外的数组空间，但在递归的过程中使用了额外的栈空间。算法每次将数组从中间分成两部分，所以数组长度变为 1 之前需要进行 $ O\left( \log n \right) $ 次递归，即空间复杂度为 $ O\left( \log n \right) $
 
 比如：[5,6,5,6] 第一次递归是[5,6]和[5,6] 第二次递归是 [5]、[6]、[5]、[6] 所以一共递归两次满足上述公式的解
 
