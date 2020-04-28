@@ -6,7 +6,6 @@ date:       2020-04-28
 author:     Neil
 header-img: img/post-bg-coffee.jpeg
 catalog: 	 true
-mathjax: 	 true
 tags:
     - 分治算法swift实现
 ---
