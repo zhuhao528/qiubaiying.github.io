@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      分治算法
-subtitle:	  分治算法的swift实现
+subtitle:	  分治算法多数问题的swift实现
 date:       2020-04-28
 author:     Neil
 header-img: img/post-bg-coffee.jpeg
