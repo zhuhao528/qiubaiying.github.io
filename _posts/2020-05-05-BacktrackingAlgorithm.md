@@ -83,7 +83,7 @@ def backtrack(路径, 选择列表):
         撤销选择
 ```
 
-![](../img/local/backtrack4.png)
+![](/img/local/backtrack4.png)
 
 执行一次深度优先遍历，从树的根结点到叶子结点形成的路径就是一个全排列
 
