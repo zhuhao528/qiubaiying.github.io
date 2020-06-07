@@ -36,7 +36,8 @@ application
 ![](/img/local/AFNetWorking.png)
 
 # AFURLSessionManager
-   * 线程
+
+1. 线程
 	
 ```
 self.operationQueue = [[NSOperationQueue alloc] init];
@@ -71,8 +72,8 @@ dispatch_async(url_session_manager_processing_queue(), ^{
     });
 });
 ```
-	
-   * AFURLSessionManagerTaskDelegate
+
+2. AFURLSessionManagerTaskDelegate
 
    AFURLSessionManager 中几乎实现了所有的 NSURLSession 相关的协议方法：
    
