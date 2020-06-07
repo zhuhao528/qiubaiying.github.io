@@ -38,23 +38,22 @@ application
 # AFURLSessionManager
    * 线程
 	
-	```
-	self.operationQueue = [[NSOperationQueue alloc] init];
-   self.operationQueue.maxConcurrentOperationCount = 1;
-	```
+```
+self.operationQueue = [[NSOperationQueue alloc] init];
+self.operationQueue.maxConcurrentOperationCount = 1;
+```
 	
-	有设置`NSOperationQueue`的`maxConcurrentOperationCount`的数值是1然后又使用如下代码赋值只`session`
+有设置`NSOperationQueue`的`maxConcurrentOperationCount`的数值是1然后又使用如下代码赋值只`session`
 	
-	```
-	_session = [NSURLSession sessionWithConfiguration:self.sessionConfiguration delegate:self delegateQueue:self.operationQueue];
-
-	```
+```
+_session = [NSURLSession sessionWithConfiguration:self.sessionConfiguration delegate:self delegateQueue:self.operationQueue];
+```
 	
-	NSURLSession 代理方法回调是异步的，所以收到回调时的线程模式是“异步+串行队列”，这个时候可以理解为处于回调线程。
+NSURLSession 代理方法回调是异步的，所以收到回调时的线程模式是“异步+串行队列”，这个时候可以理解为处于回调线程。
 	
-	任务结束以后，异步切换到 processing queue 进行数据解析，数据解析完成后再异步回到主队列或者自定义队列。
+任务结束以后，异步切换到 processing queue 进行数据解析，数据解析完成后再异步回到主队列或者自定义队列。
 	
-	```
+```
 dispatch_async(url_session_manager_processing_queue(), ^{
     NSError *serializationError = nil;
     responseObject = [manager.responseSerializer responseObjectForResponse:task.response data:data error:&serializationError];
@@ -71,7 +70,7 @@ dispatch_async(url_session_manager_processing_queue(), ^{
         });
     });
 });
-	```
+```
 	
    * AFURLSessionManagerTaskDelegate
 
@@ -82,10 +81,10 @@ dispatch_async(url_session_manager_processing_queue(), ^{
       * NSURLSessionDataDelegate 
       * NSURLSessionDownloadDelegate
 
-   `AFURLSessionManager`通过如下代码，将`task`和`AFURLSessionManagerTaskDelegate`存储在`mutableTaskDelegatesKeyedByTaskIdentifier `中并一一对应起来
+`AFURLSessionManager`通过如下代码，将`task`和`AFURLSessionManagerTaskDelegate`存储在`mutableTaskDelegatesKeyedByTaskIdentifier `中并一一对应起来
    
-   ```
-   - (void)setDelegate:(AFURLSessionManagerTaskDelegate *)delegate
+```
+- (void)setDelegate:(AFURLSessionManagerTaskDelegate *)delegate
             forTask:(NSURLSessionTask *)task
 {
     NSParameterAssert(task);
@@ -96,8 +95,7 @@ dispatch_async(url_session_manager_processing_queue(), ^{
     [self addNotificationObserverForTask:task];
     [self.lock unlock];
 }
-
-   ```
+```
 	
 在回调结束的时候，通过如下代码，找到task对应AFURLSessionManagerTaskDelegate并去执行相应的逻辑，保证多线程执行数据的安全性
 
