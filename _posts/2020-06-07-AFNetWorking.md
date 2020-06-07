@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      AFNetWorking源码分析
-subtitle:	 
+subtitle:	  架构、核心和tips
 date:       2020-06-07
 author:     Neil
 header-img: img/post-bg-coffee.jpeg
@@ -33,7 +33,7 @@ application
 * AFImageDownloader(图片下载)
 * UIImageView+AFNetworking(图片下载的应用)
 
-![](../img/local/AFNetWorking.png)
+![](/img/local/AFNetWorking.png)
 
 # AFURLSessionManager
    * 线程
