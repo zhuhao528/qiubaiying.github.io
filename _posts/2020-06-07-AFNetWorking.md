@@ -28,7 +28,7 @@ Additional Functionality
 * AFSecurityPolicy(安全验证)
 * AFURLRequestSerialization(序列化)
 
-application
+Application
 
 * AFImageDownloader(图片下载)
 * UIImageView+AFNetworking(图片下载的应用)
