@@ -33,7 +33,7 @@ Toast一共有三个类
 - ToastStyle(一个样式类)
 - ToastManager(一个是管理类)
 
-![97443F74-7BFF-41C8-BBB4-AE4F32CA0D0A.png](https://cdn.nlark.com/yuque/0/2020/png/368112/1602482232700-20f3f5a9-8ebb-43f4-911c-77b6ebb16940.png#align=left&display=inline&height=457&margin=%5Bobject%20Object%5D&name=97443F74-7BFF-41C8-BBB4-AE4F32CA0D0A.png&originHeight=457&originWidth=721&size=90803&status=done&style=none&width=721)
+![97443F74-7BFF-41C8-BBB4-AE4F32CA0D0A.png](/img/local/toast1.png)
 #### 核心逻辑（调用栈）
 
 
@@ -47,7 +47,8 @@ style.backgroundColor = UIColor.yellow
 self.navigationController?.view.makeToast("This is a piece of toast with a custom style", duration: 3.0, position: .bottom, style: style)
 ```
 在看一下函数调用栈
-![0136A846-2926-43CC-BA36-D161BBEC13D9.png](https://cdn.nlark.com/yuque/0/2020/png/368112/1602483046341-5c5eb8a5-2f5e-49ae-9fb5-07a3af994ecd.png#align=left&display=inline&height=91&margin=%5Bobject%20Object%5D&name=0136A846-2926-43CC-BA36-D161BBEC13D9.png&originHeight=91&originWidth=590&size=33946&status=done&style=none&width=590)
+![97443F74-7BFF-41C8-BBB4-AE4F32CA0D0A.png](/img/local/toast2.png)
+
 最终会调用UIView的showToast的方法
 #### Toast（类分析）
 

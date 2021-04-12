@@ -17,7 +17,7 @@ tags:
 
 JXCategoryView的UML图
 
-![8855546B-43D3-497C-85B5-D425CB613F6A.png](https://cdn.nlark.com/yuque/0/2020/png/368112/1599217574109-88664ac6-9d5e-4218-9c84-a66177400161.png#align=left&display=inline&height=656&margin=%5Bobject%20Object%5D&name=8855546B-43D3-497C-85B5-D425CB613F6A.png&originHeight=656&originWidth=682&size=76609&status=done&style=none&width=682)
+![8855546B-43D3-497C-85B5-D425CB613F6A.png](/img/local/category1.png)
 
 
 JXCategoryView 功能比较多也比较全而实际我们只用到了titleImageView，结合现有的相关开源库和我们使用的场景，打算对JXCategoryView轻量化，同时支持新app的开发工作
@@ -124,7 +124,7 @@ KSPageView样式扩展：可继承KSPageTitleView，实现KSPageView中的UISubc
 
 
 KSPageView设计UML图
-![34174712-E7C8-4174-B3B0-33319510C836.png](https://cdn.nlark.com/yuque/0/2020/png/368112/1599652194318-ca7d424c-edcf-46cd-92ef-7e876cf96619.png#align=left&display=inline&height=1154&margin=%5Bobject%20Object%5D&name=34174712-E7C8-4174-B3B0-33319510C836.png&originHeight=1154&originWidth=1696&size=341566&status=done&style=none&width=1696)
+![34174712-E7C8-4174-B3B0-33319510C836.png](/img/local/category2.png)
 
 
 core部分
